@@ -27,7 +27,7 @@ jobs:
           - laravel: 12
             testbench: ^10.0
 
-    name: Test Stubs - Laravel ${{ matrix.php }} - ${{ matrix.laravel }} - ${{ matrix.os }}
+    name: Test Voorhof - PHP ${{ matrix.php }} - Laravel ${{ matrix.laravel }} - OS ${{ matrix.os }}
 
     steps:
       - name: Checkout code
@@ -51,9 +51,6 @@ jobs:
       - name: Generate app key
         run: php artisan key:generate
 
-      - name: Execute tests
-        run: php artisan test
-
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
@@ -64,3 +61,6 @@ jobs:
 
       - name: Compile assets
         run: npm run build --no-interaction
+
+      - name: Execute tests
+        run: php artisan test
