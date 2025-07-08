@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "50ef34f17b1b782d31467b591679374a",
+    "content-hash": "4c3af51c3adb80dbc475a20ae4a5d44f",
     "packages": [
         {
             "name": "brick/math",
@@ -9214,16 +9214,16 @@
         },
         {
             "name": "voorhof/bries",
-            "version": "v0.0.2",
+            "version": "v0.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/voorhof/bries.git",
-                "reference": "01ce65a3a5c9fe817ec966c164e8901268ee3443"
+                "reference": "80c98fb1db335f1377c9ab66b7a4d87794013cf9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/voorhof/bries/zipball/01ce65a3a5c9fe817ec966c164e8901268ee3443",
-                "reference": "01ce65a3a5c9fe817ec966c164e8901268ee3443",
+                "url": "https://api.github.com/repos/voorhof/bries/zipball/80c98fb1db335f1377c9ab66b7a4d87794013cf9",
+                "reference": "80c98fb1db335f1377c9ab66b7a4d87794013cf9",
                 "shasum": ""
             },
             "require": {
@@ -9273,7 +9273,7 @@
                 "issues": "https://github.com/voorhof/bries/issues",
                 "source": "https://github.com/voorhof/bries"
             },
-            "time": "2025-07-06T13:53:13+00:00"
+            "time": "2025-07-08T18:00:18+00:00"
         }
     ],
     "aliases": [],
