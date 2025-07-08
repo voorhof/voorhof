@@ -1,5 +1,13 @@
-parameters:
-  paths:
-    - app
+includes:
+    - phpstan-baseline.neon
+    - vendor/larastan/larastan/extension.neon
+    - vendor/nesbot/carbon/extension.neon
 
-  level: 5
+parameters:
+    level: 5
+    paths:
+        - app
+        - config
+        - database
+        - routes
+    tmpDir: build/phpstan
