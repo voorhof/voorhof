@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1ac641ea2113a5cc64b8d873c3016bb0",
+    "content-hash": "a02f31a137cfd30174ef782a8226bfc2",
     "packages": [
         {
             "name": "brick/math",
@@ -9081,6 +9081,69 @@
                 }
             ],
             "time": "2024-03-03T12:36:25+00:00"
+        },
+        {
+            "name": "voorhof/bries",
+            "version": "v0.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/voorhof/bries.git",
+                "reference": "01ce65a3a5c9fe817ec966c164e8901268ee3443"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/voorhof/bries/zipball/01ce65a3a5c9fe817ec966c164e8901268ee3443",
+                "reference": "01ce65a3a5c9fe817ec966c164e8901268ee3443",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/console": "^12.0",
+                "illuminate/filesystem": "^12.0",
+                "illuminate/support": "^12.0",
+                "php": "^8.2",
+                "symfony/console": "^7.0"
+            },
+            "require-dev": {
+                "laravel/framework": "^12.0",
+                "orchestra/testbench-core": "^10.0",
+                "phpstan/phpstan": "^2.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Voorhof\\Bries\\BriesServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Voorhof\\Bries\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "David Carton",
+                    "email": "david@notrac.be"
+                }
+            ],
+            "description": "Laravel authentication scaffolding using the Bootstrap frontend toolkit and Blade templating engine.",
+            "keywords": [
+                "auth",
+                "blade",
+                "bootstrap",
+                "laravel",
+                "starter kit"
+            ],
+            "support": {
+                "issues": "https://github.com/voorhof/bries/issues",
+                "source": "https://github.com/voorhof/bries"
+            },
+            "time": "2025-07-06T13:53:13+00:00"
         }
     ],
     "aliases": [],
