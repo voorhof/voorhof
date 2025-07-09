@@ -6,8 +6,14 @@ parameters:
             count: 1
             path: app/Http/Controllers/Auth/VerifyEmailController.php
             #        - '#Call to an undefined method Illuminate\\Support\\Collection::someCustomMacro#'
+
 #        -
 #            '#PHPDoc tag @var#'
 
     excludePaths:
+
 #        - ./*/*/FileToBeExcluded.php
+
+    typeAliases:
+
+#        ValidationRules: 'array<string, array<\Illuminate\Contracts\Validation\Rule|\Illuminate\Contracts\Validation\ValidationRule|string>|string>'
