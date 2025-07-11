@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "020e2beabaf0a29496c254ec778a3ab5",
+    "content-hash": "67d52bba4f1ebb7135e2ea8047eeb580",
     "packages": [
         {
             "name": "brick/math",
@@ -9363,11 +9363,17 @@
         },
         {
             "name": "voorhof/cms",
-            "version": "dev-master",
-            "dist": {
-                "type": "path",
-                "url": "../voorhof-packages/cms",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/voorhof/cms.git",
                 "reference": "a4dd42d18d24123355c792ec745ccc379f76d169"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/voorhof/cms/zipball/a4dd42d18d24123355c792ec745ccc379f76d169",
+                "reference": "a4dd42d18d24123355c792ec745ccc379f76d169",
+                "shasum": ""
             },
             "require": {
                 "illuminate/console": "^12.0",
@@ -9381,6 +9387,7 @@
                 "orchestra/testbench-core": "^10.0",
                 "phpstan/phpstan": "^2.0"
             },
+            "default-branch": true,
             "type": "library",
             "extra": {
                 "laravel": {
@@ -9394,6 +9401,7 @@
                     "Voorhof\\Cms\\": "src/"
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -9415,9 +9423,7 @@
                 "issues": "https://github.com/voorhof/cms/issues",
                 "source": "https://github.com/voorhof/cms"
             },
-            "transport-options": {
-                "relative": true
-            }
+            "time": "2025-07-11T15:17:33+00:00"
         }
     ],
     "aliases": [],
