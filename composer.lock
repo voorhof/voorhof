@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "67d52bba4f1ebb7135e2ea8047eeb580",
+    "content-hash": "1d03e0d082712e32959500b1fd4d01b9",
     "packages": [
         {
             "name": "brick/math",
@@ -9363,16 +9363,16 @@
         },
         {
             "name": "voorhof/cms",
-            "version": "dev-main",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/voorhof/cms.git",
-                "reference": "a4dd42d18d24123355c792ec745ccc379f76d169"
+                "reference": "751dd10d79e03766dc9fe0fab7f34efccc4b7df7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/voorhof/cms/zipball/a4dd42d18d24123355c792ec745ccc379f76d169",
-                "reference": "a4dd42d18d24123355c792ec745ccc379f76d169",
+                "url": "https://api.github.com/repos/voorhof/cms/zipball/751dd10d79e03766dc9fe0fab7f34efccc4b7df7",
+                "reference": "751dd10d79e03766dc9fe0fab7f34efccc4b7df7",
                 "shasum": ""
             },
             "require": {
@@ -9423,7 +9423,7 @@
                 "issues": "https://github.com/voorhof/cms/issues",
                 "source": "https://github.com/voorhof/cms"
             },
-            "time": "2025-07-11T15:17:33+00:00"
+            "time": "2025-07-11T16:24:18+00:00"
         }
     ],
     "aliases": [],
