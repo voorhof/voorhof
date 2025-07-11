@@ -6,6 +6,9 @@ parameters:
             count: 1
             path: app/Http/Controllers/Auth/VerifyEmailController.php
             #        - '#Call to an undefined method Illuminate\\Support\\Collection::someCustomMacro#'
+        -
+            message: "#^Called 'env' outside of the config directory which returns null when the config is cached, use 'config'.$#"
+            path: config/*.php
 
 #        -
 #            '#PHPDoc tag @var#'
