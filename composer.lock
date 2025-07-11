@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1d03e0d082712e32959500b1fd4d01b9",
+    "content-hash": "df74381cbd40b34c31e35791136048cd",
     "packages": [
         {
             "name": "brick/math",
@@ -9300,16 +9300,16 @@
         },
         {
             "name": "voorhof/bries",
-            "version": "v0.0.3",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/voorhof/bries.git",
-                "reference": "80c98fb1db335f1377c9ab66b7a4d87794013cf9"
+                "reference": "593b5325af7be8bdfce2bd385e796f05ef6e0b2a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/voorhof/bries/zipball/80c98fb1db335f1377c9ab66b7a4d87794013cf9",
-                "reference": "80c98fb1db335f1377c9ab66b7a4d87794013cf9",
+                "url": "https://api.github.com/repos/voorhof/bries/zipball/593b5325af7be8bdfce2bd385e796f05ef6e0b2a",
+                "reference": "593b5325af7be8bdfce2bd385e796f05ef6e0b2a",
                 "shasum": ""
             },
             "require": {
@@ -9324,6 +9324,7 @@
                 "orchestra/testbench-core": "^10.0",
                 "phpstan/phpstan": "^2.0"
             },
+            "default-branch": true,
             "type": "library",
             "extra": {
                 "laravel": {
@@ -9359,7 +9360,7 @@
                 "issues": "https://github.com/voorhof/bries/issues",
                 "source": "https://github.com/voorhof/bries"
             },
-            "time": "2025-07-08T18:00:18+00:00"
+            "time": "2025-07-10T14:19:31+00:00"
         },
         {
             "name": "voorhof/cms",
@@ -9429,6 +9430,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
+        "voorhof/bries": 20,
         "voorhof/cms": 20
     },
     "prefer-stable": true,
