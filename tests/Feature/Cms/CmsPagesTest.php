@@ -7,7 +7,7 @@ test('cms dashboard page is displayed', function () {
 
     $response = $this
         ->actingAs($user)
-        ->get('/'.config('cms.route_uri_prefix'));
+        ->get('/cms');
 
     $response->assertOk();
 });

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4f952c54c67b94c1e9039cbd75efaa49",
+    "content-hash": "020e2beabaf0a29496c254ec778a3ab5",
     "packages": [
         {
             "name": "brick/math",
@@ -6523,16 +6523,16 @@
         },
         {
             "name": "laravel/pint",
-            "version": "v1.23.0",
+            "version": "v1.24.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/pint.git",
-                "reference": "9ab851dba4faa51a3c3223dd3d07044129021024"
+                "reference": "0345f3b05f136801af8c339f9d16ef29e6b4df8a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/pint/zipball/9ab851dba4faa51a3c3223dd3d07044129021024",
-                "reference": "9ab851dba4faa51a3c3223dd3d07044129021024",
+                "url": "https://api.github.com/repos/laravel/pint/zipball/0345f3b05f136801af8c339f9d16ef29e6b4df8a",
+                "reference": "0345f3b05f136801af8c339f9d16ef29e6b4df8a",
                 "shasum": ""
             },
             "require": {
@@ -6543,7 +6543,7 @@
                 "php": "^8.2.0"
             },
             "require-dev": {
-                "friendsofphp/php-cs-fixer": "^3.76.0",
+                "friendsofphp/php-cs-fixer": "^3.82.2",
                 "illuminate/view": "^11.45.1",
                 "larastan/larastan": "^3.5.0",
                 "laravel-zero/framework": "^11.45.0",
@@ -6588,7 +6588,7 @@
                 "issues": "https://github.com/laravel/pint/issues",
                 "source": "https://github.com/laravel/pint"
             },
-            "time": "2025-07-03T10:37:47+00:00"
+            "time": "2025-07-10T18:09:32+00:00"
         },
         {
             "name": "laravel/sail",
@@ -9360,11 +9360,71 @@
                 "source": "https://github.com/voorhof/bries"
             },
             "time": "2025-07-08T18:00:18+00:00"
+        },
+        {
+            "name": "voorhof/cms",
+            "version": "dev-master",
+            "dist": {
+                "type": "path",
+                "url": "../voorhof-packages/cms",
+                "reference": "a4dd42d18d24123355c792ec745ccc379f76d169"
+            },
+            "require": {
+                "illuminate/console": "^12.0",
+                "illuminate/filesystem": "^12.0",
+                "illuminate/support": "^12.0",
+                "php": "^8.2",
+                "symfony/console": "^7.0"
+            },
+            "require-dev": {
+                "laravel/framework": "^12.0",
+                "orchestra/testbench-core": "^10.0",
+                "phpstan/phpstan": "^2.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Voorhof\\Cms\\CmsServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Voorhof\\Cms\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "David Carton",
+                    "email": "david@notrac.be"
+                }
+            ],
+            "description": "Laravel CMS scaffolding using the Bootstrap frontend toolkit and Blade templating engine.",
+            "keywords": [
+                "blade",
+                "bootstrap",
+                "cms",
+                "laravel",
+                "starter kit"
+            ],
+            "support": {
+                "issues": "https://github.com/voorhof/cms/issues",
+                "source": "https://github.com/voorhof/cms"
+            },
+            "transport-options": {
+                "relative": true
+            }
         }
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "voorhof/cms": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
