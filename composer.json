@@ -2,11 +2,11 @@
     "$schema": "https://getcomposer.org/schema.json",
     "name": "voorhof/voorhof",
     "type": "project",
-    "description": "The skeleton application for the Laravel framework.",
+    "description": "A Laravel starter kit application.",
     "keywords": [
         "voorhof",
         "cms",
-        "starter-kit",
+        "starter kit",
         "laravel",
         "framework"
     ],
@@ -15,7 +15,8 @@
         "php": "^8.2",
         "laravel/framework": "^12.0",
         "laravel/nightwatch": "^1.10",
-        "laravel/tinker": "^2.10.1"
+        "laravel/tinker": "^2.10.1",
+        "spatie/laravel-permission": "^6.20"
     },
     "require-dev": {
         "fakerphp/faker": "^1.23",

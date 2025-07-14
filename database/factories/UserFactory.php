@@ -2,12 +2,13 @@
 
 namespace Database\Factories;
 
+use App\Models\User;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Str;
 
 /**
- * @extends \Illuminate\Database\Eloquent\Factories\Factory<\App\Models\User>
+ * @extends Factory<User>
  */
 class UserFactory extends Factory
 {
@@ -40,5 +41,25 @@ class UserFactory extends Factory
         return $this->state(fn (array $attributes) => [
             'email_verified_at' => null,
         ]);
+    }
+
+    /**
+     * Indicate that the model is deleted.
+     */
+    public function deleted(): static
+    {
+        return $this->state(fn (array $attributes) => [
+            'deleted_at' => now(),
+        ]);
+    }
+
+    /**
+     * Indicate that the model is a subscriber.
+     */
+    public function subscriber(): static
+    {
+        return $this->afterCreating(function (User $user) {
+            $user->assignRole('subscriber');
+        });
     }
 }
