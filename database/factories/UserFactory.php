@@ -52,4 +52,14 @@ class UserFactory extends Factory
             'deleted_at' => now(),
         ]);
     }
+
+    /**
+     * Indicate that the model is a subscriber.
+     */
+    public function subscriber(): static
+    {
+        return $this->afterCreating(function (User $user) {
+            $user->assignRole('subscriber');
+        });
+    }
 }
