@@ -87,7 +87,7 @@ test('correct password must be provided to update password', function () {
         ->assertRedirect('/profile');
 });
 
-test('user can soft-delete their account', function () {
+test('user can delete their account', function () {
     $user = User::factory()->create();
 
     $response = $this

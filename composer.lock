@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ca2e91d7fa7925169580ef6e8c88741e",
+    "content-hash": "15cceb7fffb2e3184e10c2f14a0c74ff",
     "packages": [
         {
             "name": "brick/math",
@@ -5889,6 +5889,71 @@
             "time": "2024-11-21T01:49:47+00:00"
         },
         {
+            "name": "voorhof/cms",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/voorhof/cms.git",
+                "reference": "6c4505781d34688ae856232273455eafc9001788"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/voorhof/cms/zipball/6c4505781d34688ae856232273455eafc9001788",
+                "reference": "6c4505781d34688ae856232273455eafc9001788",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/console": "^12.0",
+                "illuminate/filesystem": "^12.0",
+                "illuminate/support": "^12.0",
+                "php": "^8.2",
+                "spatie/laravel-permission": "^6.20",
+                "symfony/console": "^7.0"
+            },
+            "require-dev": {
+                "laravel/framework": "^12.0",
+                "orchestra/testbench-core": "^10.0",
+                "phpstan/phpstan": "^2.0"
+            },
+            "default-branch": true,
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Voorhof\\Cms\\CmsServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Voorhof\\Cms\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "David Carton",
+                    "email": "david@notrac.be"
+                }
+            ],
+            "description": "Laravel CMS scaffolding using the Bootstrap frontend toolkit and Blade templating engine.",
+            "keywords": [
+                "blade",
+                "bootstrap",
+                "cms",
+                "laravel",
+                "starter kit"
+            ],
+            "support": {
+                "issues": "https://github.com/voorhof/cms/issues",
+                "source": "https://github.com/voorhof/cms"
+            },
+            "time": "2025-07-14T18:42:03+00:00"
+        },
+        {
             "name": "webmozart/assert",
             "version": "1.11.0",
             "source": {
@@ -9387,12 +9452,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/voorhof/bries.git",
-                "reference": "109fec8f641a13d104262a0260ae86883df382fb"
+                "reference": "47ae1fd66bf64339a9dfa4d5261532929aeaa246"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/voorhof/bries/zipball/109fec8f641a13d104262a0260ae86883df382fb",
-                "reference": "109fec8f641a13d104262a0260ae86883df382fb",
+                "url": "https://api.github.com/repos/voorhof/bries/zipball/47ae1fd66bf64339a9dfa4d5261532929aeaa246",
+                "reference": "47ae1fd66bf64339a9dfa4d5261532929aeaa246",
                 "shasum": ""
             },
             "require": {
@@ -9443,78 +9508,14 @@
                 "issues": "https://github.com/voorhof/bries/issues",
                 "source": "https://github.com/voorhof/bries"
             },
-            "time": "2025-07-12T18:14:44+00:00"
-        },
-        {
-            "name": "voorhof/cms",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/voorhof/cms.git",
-                "reference": "df5bab3f41d2a6921d9b46262d440e312a2fbff7"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/voorhof/cms/zipball/df5bab3f41d2a6921d9b46262d440e312a2fbff7",
-                "reference": "df5bab3f41d2a6921d9b46262d440e312a2fbff7",
-                "shasum": ""
-            },
-            "require": {
-                "illuminate/console": "^12.0",
-                "illuminate/filesystem": "^12.0",
-                "illuminate/support": "^12.0",
-                "php": "^8.2",
-                "symfony/console": "^7.0"
-            },
-            "require-dev": {
-                "laravel/framework": "^12.0",
-                "orchestra/testbench-core": "^10.0",
-                "phpstan/phpstan": "^2.0"
-            },
-            "default-branch": true,
-            "type": "library",
-            "extra": {
-                "laravel": {
-                    "providers": [
-                        "Voorhof\\Cms\\CmsServiceProvider"
-                    ]
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Voorhof\\Cms\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "David Carton",
-                    "email": "david@notrac.be"
-                }
-            ],
-            "description": "Laravel CMS scaffolding using the Bootstrap frontend toolkit and Blade templating engine.",
-            "keywords": [
-                "blade",
-                "bootstrap",
-                "cms",
-                "laravel",
-                "starter kit"
-            ],
-            "support": {
-                "issues": "https://github.com/voorhof/cms/issues",
-                "source": "https://github.com/voorhof/cms"
-            },
-            "time": "2025-07-12T11:10:08+00:00"
+            "time": "2025-07-14T18:31:03+00:00"
         }
     ],
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "voorhof/bries": 20,
-        "voorhof/cms": 20
+        "voorhof/cms": 20,
+        "voorhof/bries": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
