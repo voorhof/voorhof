@@ -9452,12 +9452,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/voorhof/bries.git",
-                "reference": "47ae1fd66bf64339a9dfa4d5261532929aeaa246"
+                "reference": "81c4ab3eab4f2061fb514494142d6dfc5b34edfc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/voorhof/bries/zipball/47ae1fd66bf64339a9dfa4d5261532929aeaa246",
-                "reference": "47ae1fd66bf64339a9dfa4d5261532929aeaa246",
+                "url": "https://api.github.com/repos/voorhof/bries/zipball/81c4ab3eab4f2061fb514494142d6dfc5b34edfc",
+                "reference": "81c4ab3eab4f2061fb514494142d6dfc5b34edfc",
                 "shasum": ""
             },
             "require": {
@@ -9508,7 +9508,7 @@
                 "issues": "https://github.com/voorhof/bries/issues",
                 "source": "https://github.com/voorhof/bries"
             },
-            "time": "2025-07-14T18:31:03+00:00"
+            "time": "2025-07-15T10:10:14+00:00"
         }
     ],
     "aliases": [],
